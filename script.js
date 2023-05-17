@@ -15,7 +15,7 @@ for (let i = 0; i < 2; i++) {
     let b = prompt('Nech bal ile qiymetlendirirsiniz,');
 
     if (a != null && b != null && a != '' && b != '' && a.length < 50) {
-        personalMovieDB[a] = b;
+        personalMovieDB.movies[a] = b;
         console.log('Hazir');
     } else {
         console.log('Sehv var');
